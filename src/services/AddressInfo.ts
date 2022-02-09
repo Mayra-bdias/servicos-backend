@@ -18,4 +18,4 @@ export const AddressInfo = async (cep:string): Promise<Address | null> =>{
        console.log("Erro no serviço:", error)
        return null
    }
-} 
+};
